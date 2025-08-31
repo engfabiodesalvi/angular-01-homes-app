@@ -9,7 +9,7 @@ export const routes: Routes = [
         title: 'Home page',
     },
     {
-        path: 'details/:id',
+        path: 'details/:id', //dynamic navigation
         component: Details,
         title: 'Home details'
     }
